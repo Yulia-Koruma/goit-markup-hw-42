@@ -1,0 +1,221 @@
+:root {
+  --primary-title-color: #ffffff;
+  --secondary-title-color: #212121;
+  --primary-text-color: #757575;
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
+  --primary-bgr-color: #ffffff;
+  --secondary-bgr-color: #2f303a;
+  --third-bgr-color: #f5f4fa;
+  --accent-color: #2196f3;
+  --primary-logo-color: #ffffff;
+  --secondary-logo-color: #000000;
+  --secondary-btn-color: #212121;
+  --primary-btn-color: #ffffff;
+  --bgr-btn-color: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-bgr-color);
+  letter-spacing: 0.03em;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+/* Header section */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.header-logo-first {
+  color: var(--accent-color);
+}
+.header-logo-second {
+  color: var(--secondary-logo-color);
+}
+.header-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+.header-link-first {
+  color: var(--accent-color);
+}
+.header-link-second {
+  color: var(--secondary-title-color);
+}
+.header-link-third {
+  color: var(--secondary-title-color);
+}
+
+.header-contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* Main contant */
+
+/* Hero section */
+.hero {
+  background-color: var(--secondary-bgr-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--primary-title-color);
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-title-color);
+  background: var(--accent-color);
+  cursor: pointer;
+}
+
+/* about us section */
+
+.about-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-text-color);
+}
+/* Our activity section */
+
+.activity-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-title-color);
+}
+
+/* Our team section */
+
+.team {
+  background-color: var(--third-bgr-color);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-title-color);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-title-color);
+}
+.team-profession {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+/* Footer section */
+
+.footer {
+  background-color: var(--secondary-bgr-color);
+}
+.footer-logo-first {
+  color: var(--accent-color);
+}
+.footer-logo-second {
+  color: var(--primary-logo-color);
+}
+
+.address {
+  font-style: inherit;
+}
+
+.address-list {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.address-map {
+  color: var(--primary-title-color);
+}
+
+.address-link {
+  color: var(--secondary-text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+/* Filter section */
+
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--secondary-btn-color);
+  background-color: var(--bgr-btn-color);
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--primary-bgr-color);
+  background-color: var(--accent-color);
+}
+.filter-btn {
+  cursor: pointer;
+}
+
+/* Portfolio section */
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
+}
