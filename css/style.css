@@ -27,6 +27,10 @@ body {
   list-style: none;
 }
 
+.btn {
+  border: none;
+}
+
 /* Header section */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -50,11 +54,24 @@ body {
 .header-link-first {
   color: var(--accent-color);
 }
+.header-link-first:hover,
+.header-link-first:focus {
+  color: var(--secondary-title-color);
+}
 .header-link-second {
   color: var(--secondary-title-color);
 }
+.header-link-second:hover,
+.header-link-second:focus {
+  color: var(--accent-color);
+}
+
 .header-link-third {
   color: var(--secondary-title-color);
+}
+.header-link-third:hover,
+.header-link-third:focus {
+  color: var(--accent-color);
 }
 
 .header-contact-link {
